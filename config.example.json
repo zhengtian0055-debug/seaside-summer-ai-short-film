@@ -1,0 +1,16 @@
+{
+  "_comment": "复制本文件为 config.json 并改成你自己的路径。config.json 已在 .gitignore 中排除，不会被提交。",
+  "media_root": "D:/ai-film/seaside",
+  "work_dir": "D:/ai-film/seaside/build",
+  "sources": {
+    "S1": "D:/ai-film/seaside/sources/S1_v1.mp4",
+    "S2": "D:/ai-film/seaside/sources/S2_v1.mp4",
+    "S3": "D:/ai-film/seaside/sources/S3_v1.mp4",
+    "S4": "D:/ai-film/seaside/sources/S4_v1.mp4"
+  },
+  "music": "D:/ai-film/seaside/sources/bgm_105s.wav",
+  "output": "D:/ai-film/seaside/output/seaside_refined_v21_1080p.mp4",
+  "ffmpeg_dir": "C:/ffmpeg/bin",
+  "font_regular": "C:/Windows/Fonts/msyh.ttc",
+  "font_bold": "C:/Windows/Fonts/msyhbd.ttc"
+}

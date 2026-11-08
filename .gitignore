@@ -1,0 +1,35 @@
+# 本地配置与生成物，不进仓库
+config.json
+
+# 剪辑中间物
+build/
+*.log
+*.txt
+
+# 视频与音频（成片走 Release，源素材不入库）
+*.mp4
+*.mov
+*.wav
+*.m4a
+*.srt
+
+# 模型权重与训练产物
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# 个人录音、声音样本、音色模型
+recordings/
+voices/
+dataset/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
